@@ -1,0 +1,12 @@
+<?php
+
+#CONTROLLADOR POR DEFECTO
+#SERÁ LLAMADO EN CASO DE QUE NO SE DETECTE OTRO CONTROLLADOR
+define('DEFAULT_CONTROLLER','index');
+#DEFINIR LAYOUR POR DEFECTO
+define('DEFAULT_LAYOUT', 'default');
+#URL QUE CARGARA IMAGENES, JS Y CSS
+define('BASE_URL', 'http://localhost/framework');
+#NOMBRE DE NUESTRO SITIO
+define('APP_NAME','Mi Framework');
+define('APP_COMPANY','Proyectos D_Lozano');

@@ -1,0 +1,27 @@
+<div id="view-body">
+	<div class="body-tittle">
+    	<h2><?php  if (isset($this->titulo)) echo $this->titulo; ?></h2>
+	</div>
+ 	<div class="body-info"><?php if (isset($this->cuerpo)) echo $this->cuerpo; ?>
+    <?php if (isset($this->noticias)): ?>
+        <table>
+            <?php foreach ($this->noticias as $noticia): ?>
+                <tr>
+                    <td class="new-tittle"><?php echo $noticia['titulo']; ?></td>
+                </tr>
+                <tr>
+                    <td class="new-body"><?php echo $noticia['cuerpo']; ?></td>
+                </tr>
+            <?php endforeach; ?>
+        </table>
+        <div id="body-pages">
+            <ul>
+            <?php $i=0; foreach ($this->noticias as $noticia): ?>
+                <li><a href=""  ><?php $i++; echo $i; ?></a></li>
+            <?php endforeach; ?>
+            </ul>
+        </div>
+    <?php endif; ?>
+	</div> 
+  
+</div>

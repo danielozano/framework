@@ -1,0 +1,151 @@
+body *{padding:0px;margin:0px;}
+body{background-color: #A4A4A4}
+html{height:100%;}
+body,html{
+	margin:0;
+	padding: 0;
+	height:100%;
+}
+/*
+	TODO EL CONTENIDO
+*/
+#main{
+	min-height:100%;
+	position:relative;
+	
+}
+	
+
+
+/*
+	HEADER
+*/
+
+#header{
+	background:#ff0;
+	border-bottom: 1px solid #2E2E2E;
+	height:80px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+	/*
+		MENU
+	*/
+
+	#menu-top li{
+		display:inline;
+		padding: 0px 4px 0px 4px;
+
+	}	
+		#menu-top li a{
+			color:black;
+			text-decoration:none;
+		}
+			/* HOVER */
+			#menu-top li a:hover{
+				border-bottom: 4px solid #000000;
+			}
+			/* ACTIVE */
+			.active-link{
+				border-bottom: 4px solid #000000;
+			}
+
+
+
+
+/*
+	FOOTER
+*/
+
+#footer{
+	background:#6cf;
+	border-top: 1px solid #2E2E2E;
+	bottom:0;
+	height:80px;
+	position:absolute;
+	text-align: center;
+	width:100%;
+}
+
+	#footer span{
+		display: inline-block;
+		margin-top:35px;
+	}
+
+
+/*
+	CUERPO
+*/
+
+#container-gen{
+	background-color: #ffffff;
+	/*border-left:1px solid #000000;
+	border-right:1px solid #000000;*/
+	padding:10px;
+	margin:0 auto 0 auto;
+	width: 70%;
+	height:800px;
+}
+
+	/*
+		TITULO DEL CUERPO
+	*/
+
+	#view-body{
+		margin:0 auto;
+		text-align:center;
+	}
+
+		#view-body .body-tittle{
+			border-bottom: 1px solid #000000;
+			color: #585858;
+			font-size: 20px;
+			font-style:italic;
+			margin:0 auto 0 auto;
+			padding-bottom: 20px;
+			width:70%;
+		}
+
+		#view-body .body-info{
+			border-bottom: 1px solid #000000;
+			text-align: justify;
+			margin:0 auto;
+			padding-bottom:10px;
+			padding-top:10px;
+			width:70%;
+		}
+
+	/*
+		NOTICIAS
+	*/
+		
+		/*
+			TABLA
+		*/
+		.body-info table{
+			margin:0 auto;
+		}
+
+		.new-tittle{
+			font-weight: bold;
+			text-align: center;
+		}
+
+		/*
+			PAGINADO
+		*/
+		#body-pages{
+			display:block;
+			margin:10px auto 0 auto;
+			text-align: center;
+		}
+		#body-pages ul,li{
+			display:inline;
+			padding: 0px 1px 0px 1px;
+		}
+
+			#body-pages ul,li a{
+				text-decoration: none;
+			}
+
